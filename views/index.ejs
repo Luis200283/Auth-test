@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+
+<body>
+    <h1>Hello, World!</h1>
+    <ul>
+        <% users.forEach((user)=>{ %>
+            <li>
+                <div>user: <%= user.username %>
+                </div>
+                <div>password: <%= user.password %>
+                </div>
+            </li><br>
+            <% }) %>
+    </ul>
+</body>
+
+</html>
